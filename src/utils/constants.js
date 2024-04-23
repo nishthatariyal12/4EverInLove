@@ -1,0 +1,21 @@
+export const IMAGES_URL={
+    bannerImage:'https://4everinlove.com/static/media/banner-webp.5ad4a08ad917d6909fd1.png',
+    contactPageImage:'https://4everinlove.com/static/media/logo-black.c4d373b51a5a51edd161.png',
+    downloadAppStoreImage:'https://4everinlove.com/static/media/app.041a8f2a45847d9694ef.png',
+    downloadPlayStoreImage:'https://4everinlove.com/static/media/google.ff234cd7e3daab2ae6f9.jpg',
+    transparentImage:'https://4everinlove.com/static/media/4-transparent.3823bdd8266ccc7c09dc.png',
+    logoRed:'https://4everinlove.com/static/media/logored2.8ebffd364e54fd9401e3.png',
+    ourValueImage:'https://4everinlove.com/static/media/our-value.6237151e6e50bdcfe06a.png',
+    convexImage:'https://4everinlove.com/static/media/our-value.6237151e6e50bdcfe06a.png',
+    arrowHeartImage:'https://4everinlove.com/static/media/humb.febe71fa8e50fcda0dac.png',
+    phoneHeartImage:'https://4everinlove.com/static/media/phone.d26a81554072657fbdb0.png',
+    metaBubble:'https://4everinlove.com/static/media/metabubble_1.ce6ab5d7cc02a1ba6292.png',
+    videoURL:'https://public-general-s3-bucket-gng.s3.amazonaws.com/4Everinlove.mp4',
+    redTransparentImage:'https://4everinlove.com/static/media/red-transparent.97120d32235d263e3942.png',
+    appNewImage:'https://4everinlove.com/static/media/app-new.8f12321e1de49152e866.png',
+    phoneMedia:'https://4everinlove.com/static/media/phone-app.47138a5e2303f69cd625.png',
+    screen4Image:'https://4everinlove.com/static/media/screen4.fc2dd9c5a463fefa95da.png',
+    screen1Image:'https://4everinlove.com/static/media/screen1.2afe29f3fe1f6d8bbc0e.png',
+    screen2image:'https://4everinlove.com/static/media/screen2.ec714aa329a53eb228ea.png',
+    screen5Image:'https://4everinlove.com/static/media/screen5.d6485e2d7eecc9c5ebc8.png'
+}

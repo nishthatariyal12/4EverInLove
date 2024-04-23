@@ -1,13 +1,191 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+  font-family: "MelodySunday";
+  src: url("../src//fonts/MelodySunday.390a1343155491251490.otf");
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.font-MelodySunday {
+  font-family: "MelodySunday";
+}
+.banner_img {
+  background-image: url('https://4everinlove.com/static/media/banner-new.400f299f0ae6016db712.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.metaverse_img   {
+   background-image: url('https://4everinlove.com/static/media/metaverse.d5685cffee088a22db17.png');
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.image-fader img {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  animation-name: imagefade;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 8s;
+}
+@keyframes imagefade {
+  0% {
+    opacity: 1;
+  }
+  17% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0;
+  }
+  92% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@media (max-width: 2000px) and (min-width: 1901px) {
+  .responsive-screen {
+    margin: 400px auto 0px 273px !important;
+    width: 624px !important;
+  }
+  .responsive-screen .image-fader img {
+    width: 339px !important;
+    height: 700px !important;
+    margin: 29px 0px 0px 21px !important;
+    border-radius: 40px !important;
+  }
+}
+@media (max-width: 1900px) and (min-width: 1751px) {
+  .responsive-screen {
+    margin: 400px auto 0px 253px !important;
+    width: 582px !important;
+  }
+  .responsive-screen .image-fader img {
+    width: 318px !important;
+    height: 652px !important;
+    margin: 28px 0px 0px 18px !important;
+    border-radius: 40px !important;
+  }
+}
+@media (max-width: 1750px) and (min-width: 1551px) {
+  .responsive-screen {
+    margin: 400px auto 0px 187px !important;
+    width: 510px !important;
+  }
+  .responsive-screen .image-fader img {
+    width: 281px !important;
+    height: 571px !important;
+    margin: 24px 0px 0px 15px !important;
+    border-radius: 40px !important;
+  }
+}
+@media (max-width: 1550px) and (min-width: 1381px) {
+  .responsive-screen {
+    margin: 340px auto 0px 187px !important;
+    width: 458px !important;
+  }
+  .responsive-screen .image-fader img {
+    width: 253px !important;
+    height: 511px !important;
+    margin: 21px 0px 0px 13px !important;
+    border-radius: 36px !important;
+  }
+}
+@media (max-width: 1380px) and (min-width: 1301px) {
+  .responsive-screen {
+    margin: 320px auto 0px 160px !important;
+    width: 410px !important;
+  }
+  .responsive-screen .image-fader img {
+    width: 229px !important;
+    height: 459px !important;
+    margin: 19px 0px 0px 10px !important;
+    border-radius: 30px !important;
+  }
+}
+@media (max-width: 1300px) and (min-width: 1201px) {
+  .responsive-screen {
+    margin: 255px auto 0px 160px !important;
+    width: 410px !important;
+  }
+  .responsive-screen .image-fader img {
+    width: 229px !important;
+    height: 459px !important;
+    margin: 19px 0px 0px 10px !important;
+    border-radius: 30px !important;
+  }
+}
+@media (max-width: 1200px) and (min-width: 1024px) {
+  .responsive-screen {
+    margin: 240px auto 0px 160px !important;
+    width: 410px !important;
+  }
+  .responsive-screen .image-fader img {
+    width: 229px !important;
+    height: 459px !important;
+    margin: 19px 0px 0px 10px !important;
+    border-radius: 30px !important;
+  }
+}
+@media (max-width: 1023px) and (min-width: 881px) {
+  .responsive-screen {
+    margin: 170px auto 0px 128px !important;
+    width: 410px !important;
+  }
+  .responsive-screen .image-fader img {
+    width: 229px !important;
+    height: 459px !important;
+    margin: 19px 0px 0px 10px !important;
+    border-radius: 30px !important;
+  }
+}
+@media (max-width: 880px) and (min-width: 768px) {
+  .responsive-screen {
+    margin: 170px auto 0px 128px !important;
+    width: 350px !important;
+  }
+  .responsive-screen .image-fader img {
+    width: 198px !important;
+    height: 389px !important;
+    margin: 16px 0px 0px 7px !important;
+    border-radius: 30px !important;
+  }
+}
+@media (max-width: 767px) and (min-width: 661px) {
+  .responsive-screen {
+    margin: 122px auto 0px 128px !important;
+    width: 350px !important;
+  }
+  .responsive-screen .image-fader img {
+    width: 198px !important;
+    height: 389px !important;
+    margin: 16px 0px 0px 7px !important;
+    border-radius: 30px !important;
+  }
+}
+@media (max-width: 660px) and (min-width: 532px) {
+  .responsive-screen {
+    margin: 122px auto 0px 128px !important;
+    width: 300px !important;
+  }
+  .responsive-screen .image-fader img {
+    width: auto !important;
+    height: 337px !important;
+    margin: 14px 0px 0px 6px !important;
+    border-radius: 26px !important;
+  }
+}
+@media (max-width: 531px) and (min-width: 320px) {
+  .responsive-screen {
+    margin: 122px auto 0px 55px !important;
+    width: 195px !important;
+  }
+  .responsive-screen .image-fader img {
+    width: 117px !important;
+    height: 218px !important;
+    margin: 9px 0px 0px 1px !important;
+    border-radius: 26px !important;
+  }
 }
